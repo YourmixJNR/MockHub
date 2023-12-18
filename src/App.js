@@ -1,7 +1,6 @@
 import './App.css';
 import Header from './Components/Layouts/Header/Header';
-import HeroSection from './Components/Layouts/HeroSection/HeroSection';
-
+import HeroSection from './Components/HeroSection/HeroSection';
 
 function App() {
   return (
