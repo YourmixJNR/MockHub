@@ -5,6 +5,7 @@ import IconBoxes from '../Components/IconBoxes'
 import About from '../Components/About'
 import Developers from '../Components/Developers/Developers'
 import Languages from '../Components/Languages'
+import Podcasts from '../Components/Podcasts/Podcasts'
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <About />
       <Developers />
       <Languages />
+      <Podcasts />
     </>
   )
 }
