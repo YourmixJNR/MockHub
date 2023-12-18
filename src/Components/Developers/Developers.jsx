@@ -1,14 +1,15 @@
 import React from "react";
+import './Developers.css'
 
 const Developers = () => {
   return (
     <div>
       {/* <!-- Section: Developers --> */}
-      <section class="section section-developers white-text">
-        <div class="primary-overlay valign-wrapper">
-          <div class="container">
-            <div class="row">
-              <div class="col s12 center">
+      <section className="section section-developers white-text">
+        <div className="primary-overlay valign-wrapper">
+          <div className="container">
+            <div className="row">
+              <div className="col s12 center">
                 <h3>For Developers, By Developers</h3>
               </div>
             </div>
