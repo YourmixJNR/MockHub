@@ -7,6 +7,7 @@ import Developers from '../Components/Developers/Developers'
 import Languages from '../Components/Languages'
 import Podcasts from '../Components/Podcasts/Podcasts'
 import Footer from '../Components/Layouts/Footer/Footer'
+import Testimonials from '../Components/Testimonials'
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
       <Developers />
       <Languages />
       <Podcasts />
+      <Testimonials />
       <Footer />
     </>
   )
