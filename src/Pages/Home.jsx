@@ -4,6 +4,7 @@ import HeroSection from '../Components/HeroSection/HeroSection'
 import IconBoxes from '../Components/IconBoxes'
 import About from '../Components/About'
 import Developers from '../Components/Developers/Developers'
+import Languages from '../Components/Languages'
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <IconBoxes />
       <About />
       <Developers />
+      <Languages />
     </>
   )
 }
