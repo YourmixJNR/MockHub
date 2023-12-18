@@ -6,6 +6,7 @@ import About from '../Components/About'
 import Developers from '../Components/Developers/Developers'
 import Languages from '../Components/Languages'
 import Podcasts from '../Components/Podcasts/Podcasts'
+import Footer from '../Components/Layouts/Footer/Footer'
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <Developers />
       <Languages />
       <Podcasts />
+      <Footer />
     </>
   )
 }
