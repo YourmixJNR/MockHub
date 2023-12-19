@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import './Header.css'
 
 const Header = () => {
@@ -8,43 +9,43 @@ const Header = () => {
       <nav className="transparent">
         <div className="container">
           <div className="nav-wrapper">
-            <a href="#" className="brand-logo">
+            <Link to="#" className="brand-logo">
               MockHub
-            </a>
-            <a href="#" data-activates="mobile-nav" className="button-collapse">
+            </Link>
+            <Link to="#" data-activates="mobile-nav" className="button-collapse">
               <i className="fa fa-bars"></i>
-            </a>
+            </Link>
             <ul className="right hide-on-med-and-down">
               <li>
-                <a className="active-link" href="index.html">
+                <Link className="active-link" to="/">
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="solutions.html">Solutions</a>
+                <Link to="/solutions">Solutions</Link>
               </li>
               <li>
-                <a href="signup.html">Sign Up</a>
+                <Link to="3">Sign Up</Link>
               </li>
               <li>
-                <a href="#login-modal" className="btn purple modal-trigger">
+                <Link to="3" className="btn purple modal-trigger">
                   Login
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="https://facebook.com">
+                <Link to="https://facebook.com">
                   <i className="fab fa-facebook"></i>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="https://twitter.com">
+                <Link to="https://twitter.com">
                   <i className="fab fa-twitter"></i>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="https://instagram.com">
+                <Link to="https://instagram.com">
                   <i className="fab fa-instagram"></i>
-                </a>
+                </Link>
               </li>
             </ul>
             <ul className="side-nav" id="mobile-nav">
@@ -53,27 +54,27 @@ const Header = () => {
                 <div className="divider"></div>
               </li>
               <li>
-                <a href="index.html">
+                <Link to="/">
                   <i className="fa fa-home grey-text text-darken-4"></i> Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="solutions.html">
+                <Link to="/solutions">
                   <i className="fa fa-cog grey-text text-darken-4"></i> Solutions
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="signup.html">
+                <Link to="#">
                   <i className="fa fa-users grey-text text-darken-4"></i> Sign Up
-                </a>
+                </Link>
               </li>
               <li>
                 <div className="divider"></div>
               </li>
               <li>
-                <a href="#" className="btn purple">
+                <Link to="#" className="btn purple">
                   Login
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

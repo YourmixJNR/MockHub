@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './HeroSection.css'
 
 const HeroSection = () => {
@@ -15,12 +16,12 @@ const HeroSection = () => {
         </p>
         <br />
         <br />
-        <a href="solutions.html" className="btn btn-large white purple-text">
+        <Link to="/solutions" className="btn btn-large white purple-text">
           Learn More
-        </a>
-        <a href="signup.html" className="btn btn-large purple white-text">
+        </Link>
+        <Link to="/signup" className="btn btn-large purple white-text">
           Sign Up
-        </a>
+        </Link>
       </div>
     </div>
   </div>
