@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import './Podcasts.css'
 
 const Podcasts = () => {
@@ -12,9 +13,9 @@ const Podcasts = () => {
               <p>Every Thursday at 5pm EST</p>
             </div>
             <div className="col s12 m4">
-              <a href="#" className="btn purple btn-large">
+              <Link to="#" className="btn purple btn-large">
                 <i className="fa fa-podcast"></i> Listen
-              </a>
+              </Link>
             </div>
           </div>
         </div>

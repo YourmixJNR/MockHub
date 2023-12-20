@@ -16,19 +16,19 @@ const Footer = () => {
             <h5 className="white-text">Links</h5>
             <ul>
               <li>
-                <a className="grey-text text-lighten-3" href="index.html">
+                <Link className="grey-text text-lighten-3" href="index.html">
                   Home 1
-                </a>
+                </Link>
               </li>
               <li>
-                <a className="grey-text text-lighten-3" href="solutions.html">
+                <Link className="grey-text text-lighten-3" href="solutions.html">
                   Solutions
-                </a>
+                </Link>
               </li>
               <li>
-                <a className="grey-text text-lighten-3" href="signup.html">
+                <Link className="grey-text text-lighten-3" href="signup.html">
                   Signup
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -37,9 +37,9 @@ const Footer = () => {
       <div className="footer-copyright deep-purple darken-1">
         <div className="container">
           Quazzu &copy; 2018
-          <a className="grey-text text-lighten-4 right" href="#!">
+          <Link className="grey-text text-lighten-4 right" href="#!">
             Terms & Conditions
-          </a>
+          </Link>
         </div>
       </div>
     </footer>
