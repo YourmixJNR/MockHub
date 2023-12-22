@@ -7,7 +7,7 @@ const Welcome = () => {
       <div className="showcase container">
         <div className="row">
           <div className="col s12 m10 offset-m1 center">
-            <h5>Welcome To Quazzu</h5>
+            <h5>Welcome To MockHub</h5>
             <h1>Cloud Solutions</h1>
           </div>
         </div>
