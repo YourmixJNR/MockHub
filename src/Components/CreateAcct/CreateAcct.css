@@ -1,0 +1,11 @@
+.createacct-main-header-inner {
+    background: url('/public/Images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 350px;
+    color: #fff;
+}
+
+.showcase {
+    padding-top: 100px;
+}
