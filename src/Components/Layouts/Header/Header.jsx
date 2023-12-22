@@ -25,10 +25,10 @@ const Header = () => {
                 <Link to="/solutions">Solutions</Link>
               </li>
               <li>
-                <Link to="3">Sign Up</Link>
+                <Link to="/signup">Sign Up</Link>
               </li>
               <li>
-                <Link to="3" className="btn purple modal-trigger">
+                <Link to="#" className="btn purple modal-trigger">
                   Login
                 </Link>
               </li>
