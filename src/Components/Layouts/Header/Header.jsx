@@ -9,7 +9,7 @@ const Header = () => {
       <nav className="transparent">
         <div className="container">
           <div className="nav-wrapper">
-            <Link to="#" className="brand-logo">
+            <Link to="/" className="brand-logo">
               MockHub
             </Link>
             <Link to="#" data-activates="mobile-nav" className="button-collapse">
@@ -64,7 +64,7 @@ const Header = () => {
                 </Link>
               </li>
               <li>
-                <Link to="#">
+                <Link to="/signup">
                   <i className="fa fa-users grey-text text-darken-4"></i> Sign Up
                 </Link>
               </li>
