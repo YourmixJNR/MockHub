@@ -1,10 +1,13 @@
 import React from 'react'
+import Header from '../Components/Layouts/Header/Header'
+import Welcome from '../Components/Welcome/Welcome'
 
 const Solutions = () => {
   return (
-    <div>
-      <p>Hello World</p>
-    </div>
+    <>
+      <Header />
+      <Welcome />
+    </>
   )
 }
 
